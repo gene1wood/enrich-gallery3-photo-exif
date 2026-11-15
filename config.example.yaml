@@ -1,0 +1,11 @@
+# This file should be located in ~/.config/enrich-gallery3-photo-exif/config.yaml
+# (or pass --config). It contains a password, so run: chmod 600 config.yaml
+database:
+  user: gallery3user
+  password: "Password Goes Here"
+  host: localhost
+  port: 3306
+  database: gallery3
+logging:
+  level: WARNING
+  # file: ~/enrich-gallery3-photo-exif.log
